@@ -1,0 +1,14 @@
+[project]
+name = "nano-diffusion-lm"
+version = "0.1.0"
+description = "Diffusion LM Speedrun"
+readme = "README.md"
+authors = [
+    { name = "Justin Chiu", email = "chiu.justin.t@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
