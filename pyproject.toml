@@ -7,7 +7,12 @@ authors = [
     { name = "Justin Chiu", email = "chiu.justin.t@gmail.com" }
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "huggingface-hub>=0.33.1",
+    "numpy>=2.2.6",
+    "torch>=2.7.1",
+    "tqdm>=4.67.1",
+]
 
 [build-system]
 requires = ["hatchling"]
