@@ -1,3 +1,6 @@
+"""
+From https://github.com/KellerJordan/modded-nanogpt/blob/master/train_gpt.py
+"""
 import os
 import sys
 with open(sys.argv[0]) as f:
