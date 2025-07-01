@@ -17,4 +17,4 @@ WORKDIR /app
 
 RUN uv sync
 
-CMD ["sh", "-c", "uv run python src/nano_diffusion_lm/cached_fineweb10B.py 8 && uv run torchrun --standalone --nproc_per_node=8 src/nano_diffusion_lm/train_small.py"]
+CMD ["sh", "-c", "uv run python src/nano_diffusion_lm/cached_fineweb10b.py 8 && uv run torchrun --standalone --nproc_per_node=8 src/nano_diffusion_lm/train_small.py"]
